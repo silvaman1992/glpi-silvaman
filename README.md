@@ -6,11 +6,16 @@ curl -fsSL https://get.docker.com/ | sh
 
 # Criar Repositório
  mkdir /docker/glpi-silvaman
+
  mkdir data
+ 
  mkdir mariadb
 
 # Subindo
+
 ./docker_start_mariadb.sh
+
+
 ./docker_start_glpi.sh
 
 # Acessando GLPI
