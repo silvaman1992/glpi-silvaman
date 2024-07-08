@@ -6,6 +6,9 @@ https://glpi-project.org/pt-br/
 # Instalar o Docker
 curl -fsSL https://get.docker.com/ | sh
 
+# Descompactando imagem Docker
+docker load -i glpi-10.0.11.tar
+
 # Criar Repositório
  mkdir /docker/glpi-silvaman
 
