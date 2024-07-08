@@ -13,5 +13,5 @@ curl -fsSL https://get.docker.com/ | sh
 ./docker_start_mariadb.sh
 ./docker_start_glpi.sh
 
-#Acessando GLPI
+# Acessando GLPI
 localhost:8080
