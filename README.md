@@ -20,3 +20,5 @@ curl -fsSL https://get.docker.com/ | sh
 
 # Acessando GLPI
 localhost:8080
+User: glpi
+Password glpi
